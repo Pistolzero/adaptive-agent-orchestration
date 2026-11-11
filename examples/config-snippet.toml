@@ -1,0 +1,8 @@
+# OPTIONAL: MERGE these lines into the existing ~/.codex/config.toml.
+# Never replace existing config.toml or remove existing settings.
+# Confirm your Codex build recognizes these keys before adding.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
+# Leave the main Codex model and effort selected in the UI unchanged.
+# The OPTIONAL_CUSTOM_AGENTS/*.toml role files set their own model and effort.
